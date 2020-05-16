@@ -9,18 +9,18 @@ https://github.com/jest-another-RPG
 * [Installation](#installation)
 * [Usage](#usage)
 * [Reference](#reference)
-* [License](#license)
+* [Testing](#testing)
 * [Technology](#technology)
 * [Contribution](#contribution)
 
 ## Description
-This is a command-line role-playing game (RPG) in which a user battles against a series of enemies whose health and stats can be sustained by a potion. This app includes unit testing or TDD utilizing Jest.
+Per class assignment mod10, this is a command-line role-playing game (RPG) in which a user battles against a series of enemies whose health and stats can be sustained by a potion. This app includes unit testing or TDD, utilizing Jest.
 
 ## Installation
 - Prereq: install VSCode, Node.js
 - After cloning the GitHub repo to your local drive, run the following in the VSCode terminal command-line
 - $ npm init
-- Install npm Inquirer
+- Install npm Inquirer, for more info https://www.npmjs.com/package/inquirer
 - $ npm install inquirer
 - Install npm Jest, more info https://jestjs.io
 - $ npm install --save-dev jest
@@ -29,7 +29,7 @@ This is a command-line role-playing game (RPG) in which a user battles against a
 - If you need to re-add the dependencies, run $ npm install
 
 ## Usage
-* From your terminal, start the application by running 
+* From your terminal, invoke\start the application by running 
 * $ node index.js
 
 ## Reference
