@@ -1,7 +1,7 @@
 # Repository: jest-another-RPG
 
 ## GitHub 
-https://github.com/jest-another-RPG
+https://github.com/ktrnthsnr/jest-another-RPG
 
 
 ## Table of Contents
