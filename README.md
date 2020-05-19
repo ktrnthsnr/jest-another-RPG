@@ -23,7 +23,7 @@ Per class assignment mod10, this is a command-line role-playing game (RPG) in wh
 - Install npm Inquirer, for more info https://www.npmjs.com/package/inquirer
 - $ npm install inquirer
 - Install npm Jest, more info https://jestjs.io
-- $ npm install --save-dev jest
+- $ npm install jest --save-dev
 - Update package.json from "test": "test" to "test": "jest" 
 - Create a .gitignore file in the root and add node_modules to this file
 - If you need to re-add the dependencies, run $ npm install
