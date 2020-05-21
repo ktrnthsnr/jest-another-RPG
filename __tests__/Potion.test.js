@@ -1,6 +1,11 @@
 const Potion = require('../lib/Potion.js');
     // console.log(Potion);
 
+// --- tests ----- //
+// -- first create the test to have the object fail (before its Potion contructor within Potion.js is created), 
+// -- then to make the test succeed, add the constructor ie in the Potion.js, and run again
+// -- run 1st test with $ npm run test
+
 // 1st test assigning health to potion (specific potion value of specifically: health)
 test('creates a health potion object', () => {
     const potion = new Potion('health');    
@@ -8,7 +13,6 @@ test('creates a health potion object', () => {
     expect(potion.value).toEqual(expect.any(Number));
     });
 
- //-- fails before adding the Potion contructor to the Potion.js, succeeds after adding the code.
 // -- 2nd test, for random type and value (random potion of either: health, agility, or strength.)
 test('creates a random potion object', () => {
     const potion = new Potion(); 
