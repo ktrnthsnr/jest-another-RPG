@@ -1,3 +1,5 @@
+            // -- requires --- //
+
 // -- mock test with console.log
 const Potion = require('../lib/Potion');
 jest.mock('../lib/Potion.js');
@@ -7,11 +9,13 @@ console.log(new Potion());
 //-- import the Player module
 const Player = require('../lib/Player');
 
+            // -- tests --- //
+
 // -- basic tests, by creating new Player 'object' called (lowercase) player
 test('creates a player object', () => {
     // -- new player object 'Dave'
     const player = new Player('Dave');
-    // -- whereby the test object has 4 properties of the expect.toBe() and .toEqual() Jest methods
+    // -- whereby the player test object has 4 properties of the expect.toBe() and .toEqual() Jest methods
     expect(player.name).toBe('Dave');
     expect(player.health).toEqual(expect.any(Number));
     expect(player.strength).toEqual(expect.any(Number));
